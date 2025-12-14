@@ -1,0 +1,115 @@
+/* Semester Project | Bed & Breakfast | Kylee Parks */
+header, nav, main, footer { display: block; }
+
+/* Styles for the Body */
+body {
+	background-color: #2D3D1F;
+    font-family: Verdana, Arial, sans-serif;
+	color: #000000;
+}
+
+/* Styles for the Wrapper */
+#wrapper {
+	width: 960px;
+    margin: 20px auto;
+	background-color: #98D770;
+	color: #2D3D1F;
+	box-shadow: 0 8px 20px #000000;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+/* Styles for Headings */
+h1 {
+	background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-color: #66B032;
+	height: 110px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 3.5em;
+    padding-left: 220px;
+	padding-top: 30px;
+	text-shadow: 2px 2px 4px #3F7718;
+	color: #1B3409;
+	margin-bottom: 0;
+}
+
+h2 {
+	color: #000000;
+	font-size: 1.8em;
+	border-bottom: 2px solid #A5D6A7;
+	padding-bottom: 8px;
+	margin-top: 25px;
+}
+
+h3 {
+	color: #000000;
+	font-size: 1.4em;
+	margin-top: 20px;
+}
+
+/* Styles for Navigation */
+nav {
+	padding-top: 15px;
+    float: left;
+    width: 200px;
+	background-color: #98D770;
+	min-height: 400px;
+}
+
+nav ul {
+	list-style-type: none; 
+    padding-left: 30px;
+	margin: 0;
+	 }
+	 
+nav li {
+	padding: 12px 20px;
+    font-weight: bold;
+	border-bottom: 1px solid #C8E6C9;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	font-size: 1.05em;
+}
+
+nav a:link {
+	color: #1B3409;
+}
+
+nav a:visited {
+	color: #1B3409;
+}
+
+nav a:hover {
+	color: #D9F4C7;
+	padding-left: 5px;
+}
+
+/* Styles for Main Content */
+main {
+	background-color: #D9F4C7;
+    margin-left: 200px;
+    padding: 20px 30px 30px 30px;   
+	min-height: 400px;
+}
+main img {
+	float: right;
+    padding: 15px;
+	border: 3px solid #A5D6A7;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px #000000;
+}
+
+/* Styles for the Footer */
+footer {
+	background-color: #66B032;
+    margin-left: 0;
+    padding: 20px;
+    text-align: center;
+	font-size: 0.9em;
+	font-style: italic;
+}
+	  

@@ -1,0 +1,130 @@
+/* Semester Project | Bed & Breakfast | Kylee Parks */
+header, nav, main, footer { display: block; }
+
+/* Styles for the Body */
+body {
+	background-color: #2D3D1F;
+    font-family: Verdana, Arial, sans-serif;
+	color: #000000;
+}
+
+/* Styles for the Wrapper */
+#wrapper {
+	width: 960px;
+    margin: 20px auto;
+	background-color: #98D770;
+	color: #2D3D1F;
+	box-shadow: 0 10px 30px #000000;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+/* Styles for Headings */
+h1 {
+	background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-color: #66B032;
+	height: 110px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 3.5em;
+    padding-left: 220px;
+	padding-top: 30px;
+	text-shadow: 3px 3px 6px #3F7718;
+	color: #1B3409;
+	margin-bottom: 0;
+}
+
+h2 {
+	color: #000000;
+	font-size: 1.8em;
+	font-family: Georgia, "Times New Roman", serif;
+	border-bottom: 3px solid #A5D6A7;
+	padding-bottom: 10px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+h3 {
+	color: #000000;
+	font-size: 1.5em;
+	font-family: Georgia, "Times New Roman", serif;
+	margin-top: 25px;
+	margin-bottom: 12px;
+	border-left: 4px solid #66B032;
+	padding-left: 15px;
+}
+
+/* Styles for Navigation */
+nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+    float: left;
+    width: 200px;
+	background-color: #98D770;
+	min-height: 450px;
+}
+
+nav ul {
+	list-style-type: none; 
+    padding-left: 30px;
+	margin: 0;
+	 }
+	 
+nav li {
+	padding: 12px 20px;
+    font-weight: bold;
+	border-bottom: 1px solid #C8E6C9;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 12px 15px;
+	border-radius: 6px;
+}
+
+nav a:link {
+	color: #1B3409;
+}
+
+nav a:visited {
+	color: #1B3409;
+}
+
+nav a:hover {
+	color: #D9F4C7;
+	background-color: #66B032;
+	padding-left: 20px;
+	box-shadow: 0 4px 8px #000000;
+}
+
+/* Styles for Main Content */
+main {
+	background-color: #D9F4C7;
+    margin-left: 200px;
+    padding: 30px 40px 40px 40px;   
+	min-height: 450px;
+}
+main img {
+	float: right;
+    padding: 15px;
+	margin: 0 0 20px 25px;
+	border: 3px solid #A5D6A7;
+	border-radius: 10px;
+	box-shadow: 0 6px 12px #000000;
+	background-color: #FFFFFF;
+}
+
+/* Styles for the Footer */
+footer {
+	background-color: #66B032;
+    margin-left: 0;
+    padding: 20px;
+    text-align: center;
+	font-size: 0.95em;
+	font-style: italic;
+	color: #1B3409;
+}
+	  

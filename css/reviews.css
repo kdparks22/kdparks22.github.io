@@ -1,0 +1,83 @@
+/*    Semester Project
+      Bed & Breakfast
+      Reviews Styles
+
+      Author: Kylee Parks
+      Date:   4/8/2026
+
+      Filename: reviews.css
+*/
+
+/* Review styles */
+table {
+	width: 100%;
+	margin: 20px 0;
+	background-color: #FFFFFF;
+	border: 3px solid #A5D6A7;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 2px 2px 15px black;
+}
+
+/* Caption from viewer */
+table caption {
+	background-color: #66B032;
+	color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-align: left;
+	caption-side: top;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+/* Prime reviewer */
+table.prime caption {
+	background-color: #3F7717;
+	background-image: url(../images/prime.png);
+	background-repeat: no-repeat;
+	background-position: right 12px center;
+}
+
+/* New reviewer */
+table.new caption {
+	background-color: #A5D6A7;
+	background-image: url(../images/new.png);
+	background-repeat: no-repeat;
+	background-position: right 12px center;
+}
+
+table th {
+	background-color: #E8F5E9;
+	color: #000000;
+	padding: 10px 14px;
+	text-align: left;
+	font-weight: bold;
+	border-bottom: 1px solid #C8E6C9;
+	width: 120px;
+}
+
+table td {
+	padding: 10px 14px;
+	border-bottom: 1px solid #E8F5E9;
+	color: #000000;
+}
+
+/* Reviewer comment */
+table td[colspan="2"] {
+	font-style: italic;
+	background-color: #F8FFF8;
+	border-bottom: none;
+	line-height: 1.6;
+}
+
+/* Star images */
+table td img {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 17px;
+}

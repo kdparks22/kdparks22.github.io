@@ -1,0 +1,59 @@
+<!--  Semester Project
+      Bed & Breakfast
+      Gift Shop | Cart
+
+      Author: Kylee Parks
+      Date:   4/22/2026
+
+      Filename: cart.html
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/store.css">
+    <script src="scripts/common.js"></script>
+    <script src="scripts/cart.js"></script>
+</head>
+<body onload="renderCart()">
+	<!-- Wrapper -->
+	<div id="wrapper">
+		<!-- Header Section -->
+		<header>
+			<h1>Secret Garden Getaway</h1>
+		</header>
+		<!-- Navigation Section -->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="rooms/greenery_room.html">Greenery Room</a></li>
+				<li><a href="rooms/floral_room.html">Floral Room</a></li>
+				<li><a href="events/special_events.html">Events</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="estimate.html">Cost Estimation</a></li>
+				<li><a href="reviews.html">Guest Reviews</a></li>
+				<li><a href="gallery.html">Image Gallery</a></li>
+				<li><a href="gift_shop.html">Gift Shop</a></li>
+			</ul>
+		</nav>
+		<!-- Main Content Section -->
+		<main>
+			<h2>Your Cart</h2>
+			<div id="cart-area"></div>
+			<div class="total-box">
+				Total: $<span id="total-box">0.00</span>
+			</div>
+			<div class="cart-actions">
+				<a href="shipping.html" class="checkout-btn">Proceed to Checkout</a>
+			</div>
+		</main>
+		<!-- Footer Section -->
+		<footer>
+			Copyright &copy; 2025<br>
+			<a href="mailto:kdparks22@amarillocollege.com">Webmaster</a>
+		</footer>
+	</div>
+</body>
+</html>
